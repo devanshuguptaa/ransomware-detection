@@ -6,7 +6,7 @@ st.title("📊 Dataset Exploration")
 df = load_data()
 
 st.subheader("🔍 Preview of the Dataset")
-st.dataframe(styled_dataframe(df.head()), use_container_width=True)
+st.dataframe(styled_dataframe(df.sample(5)), use_container_width=True)
 
 col1, col2 = st.columns(2)
 with col1:
