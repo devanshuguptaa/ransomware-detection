@@ -36,7 +36,7 @@ if df is not None:
     - Using **LIME** to explain model predictions
     - Fixing data imbalance with **SMOTE + Tomek Links**
     """)
-
+         
     # Project Overview
     st.markdown("---")
     st.markdown("### 📚 **Project Overview**")
@@ -48,7 +48,8 @@ if df is not None:
     - **Section 5:** Model Explainability with **LIME**  
     - **Section 6:** Data Balancing with **SMOTE Tomek**  
     """)
-
+          
     # Footer
     st.markdown("---")
     st.success("🚀 Let's build an interpretable and effective ML model to detect ransomware attacks!")
+    

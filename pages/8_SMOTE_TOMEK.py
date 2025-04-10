@@ -2,8 +2,8 @@ import streamlit as st
 from imblearn.combine import SMOTETomek
 from utils.helpers import load_data, train_model, explain_instance
 
-st.set_page_config(page_title="Explainability - SMOTE Tomek", layout="wide")
-st.title("🧠 Explainability After SMOTE Tomek")
+st.set_page_config(page_title=" SMOTE Tomek", layout="wide")
+st.title("🧠 SMOTE Tomek")
 
 # Introduction to SMOTE + Tomek
 st.subheader("📌 What is SMOTE + Tomek?")
@@ -18,6 +18,7 @@ Combining both gives a better decision boundary and improves model generalizatio
 st.image("data\SMOTE.png", caption="Visual Representation: SMOTE + Tomek Technique", use_container_width=True)
 
 # Load data and preprocess
+
 df = load_data()
 features = df.drop(['Name', 'md5', 'legitimate'], axis=1).columns[:15]
 X = df[features]
