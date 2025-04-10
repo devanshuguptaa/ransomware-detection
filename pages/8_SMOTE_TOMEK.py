@@ -15,7 +15,12 @@ Combining both gives a better decision boundary and improves model generalizatio
 """)
 
 # Show diagram image
-st.image("data\SMOTE.png", caption="Visual Representation: SMOTE + Tomek Technique", use_container_width=True)
+try:
+    st.image("assets\SMOTE.png", caption="Visual Representation: SMOTE + Tomek Technique", use_container_width=True)
+except Exception as e:
+    st.error(f"Failed to load image: {e}")
+
+
 
 # Load data and preprocess
 
