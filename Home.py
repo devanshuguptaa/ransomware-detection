@@ -10,7 +10,7 @@ st.set_page_config(
 # Sidebar layout
 st.sidebar.image("https://cdn-icons-png.flaticon.com/512/5610/5610944.png", width=100)
 st.sidebar.title("🔐 Ransomware Detection App")
-st.sidebar.markdown("Built with ❤️ By **Shivanya Gautam**")
+# st.sidebar.markdown("Built with ❤️ By **Shivanya Gautam**")
 st.sidebar.info("Navigate through the sections using the sidebar menu.")
 
 # Upload CSV file
