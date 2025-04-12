@@ -127,8 +127,3 @@ This project is licensed under the MIT License.
 Pull requests and issues are welcome. If you'd like to improve this app or add a feature, feel free to fork and contribute!
 
 ---
-
-## 🌐 Author
-
-Developed by **Shivanya Gautam**  
-🔗 [Your GitHub Profile](https://github.com/DejaVu-1729/)
