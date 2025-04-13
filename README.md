@@ -129,5 +129,5 @@ Pull requests and issues are welcome. If you'd like to improve this app or add a
 ---
 
 ## Author
- ** Shivanya Gautam**
+ **Shivanya Gautam**
  
