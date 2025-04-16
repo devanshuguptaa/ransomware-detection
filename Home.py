@@ -47,6 +47,7 @@ if df is not None:
     - **Section 4:** Model Training and Evaluation  
     - **Section 5:** Model Explainability with **LIME**  
     - **Section 6:** Data Balancing with **SMOTE Tomek**  
+    - **Section 7:** Predicting Sample **
     """)
           
     # Footer
